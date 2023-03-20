@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HORÁRIOS CLÍNICA</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+            margin: 0;
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: aquamarine;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            background-color: aqua;
+            padding: 10px 20px 0px;
+            font-size: large;
+        }
+        .header {
+            background-color: rgb(5, 108, 108);
+            min-height: 150px;
+            text-align: center;
+            position: center;
+        }
+        .content {
+            background-color: white;
+            min-height: 300px;
+            padding: 20px;
+        }
+        .footer {
+            background-color: rgb(171, 148, 248);
+            min-height: 150px;
+        }
+        table {
+            box-shadow: 11px 9px 0px 4px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+        }
+        table th {
+            background-color: rgb(88, 119, 119);
+        }
+        table tr:hover td{
+            background-color: aquamarine;
+            cursor: pointer;
+        }
+        
+</style>
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <img src="menuicon.png" width="20">Menu<br><br>
+            <ul>
+                <li><a href="principal.html">PÁGINA PRINCIPAL</a></li><br><br>
+                <li><a href="sobre.html">SOBRE A CLÍNICA</a></li><br><br>
+                <li><a href="horario.html">HORÁRIO DE ATENDIMENTO</a></li><br><br>
+                <li><a href="contatos.html">CONTATOS</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <header>
+                    <img title="HORÁRIOS DA CLÍNICA" src="horarios.png" alt="HORÁRIOS DA CLÍNICA" >
+                </header>
+            </div>
+    
+            <div class="content">
+                <content>
+                    <h3>Aqui você pode conferir preços, horários e datas disponíves para a consulta que desejar.</h3>
+                    <table summary="Esta é a tabela de preços dos nossos exames." border="1" width="750" align="center" cellspacing="0" cellpadding="5">
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                            <th>Preço (PIX)</th>
+                            <th>Preço (CARTÃO)</th>
+                        </tr>
+                        <tr>
+                            <td>Hemograma</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 12h</td>
+                            <td>08h - 14h</td>
+                            <td>R$250,00</td>
+                            <td>R$290,00</td>
+                        </tr>
+                        <tr>
+                            <td>Colesterol</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 12h</td>
+                            <td>08h - 14h</td>
+                            <td>R$360,00</td>
+                            <td>R$400,00</td>
+                        </tr>
+                        <tr>
+                            <td>Fezes e Urina</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 12h</td>
+                            <td>-</td>
+                            <td>R$120,00</td>
+                            <td>R$160,00</td>
+                        </tr>
+                        <tr>
+                            <td>Glicose e Glicemia</td>
+                            <td>08h - 19h</td>
+                            <td>08h - 12h</td>
+                            <td>-</td>
+                            <td>R$300,00</td>
+                            <td>R$340,00</td>
+                        </tr>
+                    </table>
+                </content>
+            </div>
+    
+            <div class="footer">
+                <footer>
+                    <h3>&nbsp;&nbsp;&nbsp;&nbsp;Informações de contato</h3>
+                    <br>&nbsp;&nbsp;&nbsp;<img src="telefone.png" width="20">(77)9.9910-3979 <br>
+                    &nbsp;&nbsp;&nbsp;<a href="https://web.whatsapp.com//+5577999103979" target="_blank"><img src="wpp.png" width="20">ENVIE UMA MENSAGEM</a><br>
+                    &nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/bernardoaraujoalves_/" target="_blank"><img src="ig.png" width="20">SIGA-NOS</a>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
